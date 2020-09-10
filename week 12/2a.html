@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2a</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function changeTxt(t, o) {
+            var o = document.getElementById(o);
+            o.innerHTML = t;
+            o.style.color = "#F00";
+        }
+    </script>
+
+    <h1 id="anH1tag">Hi,there.</h1>
+    <div id="thisIsAclickableDiv" onclick="changeTxt('How you doing? ','anH1tag');">
+        Click here to change<br><br>
+    </div>
+</body>
+
+</html>
